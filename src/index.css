@@ -1,0 +1,122 @@
+/* styles.css */
+
+/* General container styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h2, h3 {
+  color: #007bff;
+}
+
+div {
+  margin: 1rem 2rem;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.remove {
+  background-color: #dc3545;
+}
+
+button.remove:hover {
+  background-color: #c82333;
+}
+
+div.entry {
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: white;
+}
+
+/* Preview section styling */
+.preview {
+  background-color: #fff;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Section styling */
+.general-info,
+.education-section,
+.experience {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Entry styling */
+.education-section .entry,
+.experience .entry {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.app-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/* Form container (left side) */
+.form-container {
+  flex: 0.4; /* Adjust width to make it smaller */
+  max-height: 80vh; /* Limit height to 80% of the viewport */
+  overflow-y: auto; /* Add scroll if content exceeds container height */
+  margin-right: 1rem;
+  border: 1px solid #ccc; /* Optional: Add border for better visibility */
+  padding: 1rem;
+  background-color: #ffffff; /* Ensure a clean background */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Preview container (right side) */
+.preview-container {
+  flex: 0.5; /* Reduce the width */
+  max-height: 80vh; /* Limit the height to 80% of the viewport */
+  overflow-y: auto; /* Add scrolling if content exceeds the container height */
+  background-color: #f5deb3;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
